@@ -9,7 +9,7 @@
 # def is_multiple(n, m):
 #
 #     if n%m==0:
-#         # TODO
+#
 #         return True
 #     return  False
 #
@@ -38,7 +38,7 @@ print(is_even(2))
 print(is_even(3))
 
 print(is_even())'''
-
+# (-1)**k
 
 # Write a short Python function, minmax(data), that takes a sequence of
 # one or more numbers, and returns the smallest and largest numbers, in the
@@ -56,7 +56,7 @@ print(is_even())'''
     return smallest, largest
 
 
-alpha = [2, 2, 3, 4, 5, 6, 7, 8, 99]
+alpha = [5, 2, 3, 4, 5, 100, 7, 8, 99]
 
 print(minmax(alpha))'''
 
@@ -78,7 +78,7 @@ print(sum_of_squares(4))'''
 
 
 #Second version
-def sum_square(n):
+'''def sum_square(n):
     result = 0
     if n > 0:
         for i in range(n):
@@ -87,11 +87,13 @@ def sum_square(n):
     elif n <= 0:
         return ("n should be positive")
 
-print(sum_square(5))
+print(sum_square(5))'''
 
 
 # Give a single command that computes the sum from Exercise R-1.4, relying
 # on Python’s comprehension syntax and the built-in sum function.
+
+
 
 
 
