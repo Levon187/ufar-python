@@ -3,7 +3,12 @@ Write a Python program that outputs all possible strings formed by using
 the characters c , a , t , d , o , and g exactly once using only 3-letter words
 result -> cat cad cao cag .....
 '''
+
+
 from datetime import datetime
+
+LOGIN = 'VAZGEN'
+PASSWORD = 'CHANGEME'
 # letters.add("r")
 # letters.add("c")
 # letters |= {"q", "w", "k"}
@@ -35,3 +40,7 @@ def words2(letters):
     print(t2 - t1)
 
 # words2("catdog")
+
+
+def is_multiple(n, m):
+    return not bool(n % m)
