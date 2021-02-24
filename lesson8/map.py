@@ -41,11 +41,14 @@ print(list(f_temps2))
 
 # ///////////////////////////////////////
 
+
 def power(n):
     return n ** 2
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-new_numbers = list(map(power, numbers))
+new_numbers = map(power, numbers)
+new_numbers_version2 = list(map(lambda n: n**2, numbers))
 
 print(new_numbers)
+print(new_numbers_version2)
