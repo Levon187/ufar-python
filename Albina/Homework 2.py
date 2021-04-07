@@ -1,17 +1,17 @@
 
 
 #Quention from book
-'''age = -1  # an initially invalid choice
+age = -1  # an initially invalid choice
 while age <= 0:
 try:
-   age = int(input( Enter your age in years: ))
+   age = int(input("Enter your age in years: "))
    if age <= 0:
-      print( Your age must be positive )
-   except ValueError:
-      print( That is an invalid age specification )
-   except EOFError:
+      print("Your age must be positive" )
+except ValueError:
+      print("That is an invalid age specification" )
+except EOFError:
       print( " was an unexpected error reading input")
-      raise'''
+      raise
 
 # 1.9 What parameters should be sent to the range constructor, to produce a
 # range with values 50, 60, 70, 80?
@@ -58,9 +58,9 @@ def words(letters):
     print(t2-t1)
 # words("catdog")'''
 
-import random
-char_set = {'c','a','t','d','o', 'g'}
-random.shuffle(char_set)
-for i in range(char_set):
- print(''.join(char_set))
+# import random
+# char_set = {'c','a','t','d','o', 'g'}
+# random.shuffle(char_set)
+# for i in range(char_set):
+#  print(''.join(char_set))
 

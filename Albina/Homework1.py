@@ -38,7 +38,21 @@ print(is_even(2))
 print(is_even(3))
 
 print(is_even())'''
-# (-1)**k
+# (-1)**
+
+# def is_even(k):
+#    m= input(int("Enter number"))
+#     if ((-1)**m>0):
+#         {
+#         print("true")
+#         }
+
+
+invalue = input("Enter a value to check > ")
+
+print("\nBam! %d is Even!\n"%invalue if (-1)**invalue == 1 else "No way! %d is not even.\n" %invalue)
+
+print("Yeah, it's Even number!\n" if invalue % 2 == 0 else "No way! It's not.\n")
 
 # Write a short Python function, minmax(data), that takes a sequence of
 # one or more numbers, and returns the smallest and largest numbers, in the
